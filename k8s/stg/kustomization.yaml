@@ -41,7 +41,7 @@ spec:
           value: stg
         - name: LOG_LEVEL
           value: info
-        image: gcr.io/dlorenc-vmtest2/foo
+        image: gcr.io/dlorenc-vmtest2/foo:vmaster
         name: app
         ports:
         - containerPort: 8080
